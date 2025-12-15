@@ -1,0 +1,48 @@
+----Adult Dataset (Census Income):
+Source: Kaggle, extrait de la base de données du recensement américain de 1994 (initialement dans le dépôt UCI Machine Learning).
+
+Objectif Principal: Classification Binaire (prédire si le revenu d'un individu dépasse un seuil).
+
+Description: Il contient des attributs démographiques et professionnels pour prédire le niveau de revenu annuel.
+
+Taille: Environ 48 842 observations (individus) dans la version complète (train+test).
+
+Caractéristiques (Features):
+
+Nombre: 14-15 variables explicatives.
+
+Type: Un mélange de variables numériques (ex. age, hours-per-week, capital-gain) et catégorielles (ex. workclass, education, marital-status, occupation, race, sex).
+
+Qualité des données: Présence de valeurs manquantes, souvent encodées par le caractère ? pour certaines variables catégorielles (ex. workclass, occupation, native-country).
+
+Target: Income (Revenu), une variable catégorielle binaire avec les niveaux >50K et <=50K.
+
+
+----AmesHousing Dataset:
+Source: Kaggle, compilé par Dean De Cock (2011).
+
+Objectif Principal: Régression (prédire le prix de vente des maisons).
+
+Description: Ce jeu de données contient des informations sur les propriétés résidentielles à Ames, Iowa, de 2006 à 2010. Il est souvent utilisé comme alternative au Boston Housing Dataset, mais il est beaucoup plus riche et complexe.
+
+Taille: Environ 2930 observations (propriétés) dans la version complète.
+
+Caractéristiques (Features):
+
+Nombre: Près de 80 (79 variables explicatives).
+
+Type: Un mélange de variables numériques (ex. Lot Area, 1st Flr SF, Garage Area) et catégorielles (ex. MS Zoning, Street, Lot Shape, Overall Quality).
+
+Qualité des données: Présence significative de valeurs manquantes (NA) qui nécessitent une imputation ou une gestion soignée. Certaines valeurs manquantes ont une signification (ex. 'No Pool' pour un champ 'Pool Quality').
+
+Target: SalePrice (Prix de vente), une variable continue et généralement asymétrique à droite (skewed) qui suggère une transformation logarithmique pour la modélisation.
+
+-----
+
+
+
+
+
+
+
+

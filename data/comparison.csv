@@ -1,0 +1,11 @@
+Critère,🏠 AmesHousing,🧑 Adult (Census Income),🩺 WDBC (Breast Cancer Diagnostic)
+Source,Kaggle (Dean De Cock),Kaggle / UCI ML (US Census),UCI ML / Kaggle (Dr. Wolberg)
+Domaine,Immobilier / Économie,Socio-démographique / Économie,Médical / Biologique
+Tâche ML,Régression,Classification Binaire,Classification Binaire
+Target,"SalePrice (Continu, $)",Income (>50K ou ≤50K),Diagnosis (Maligne ou Bénigne)
+Taille (Observations),≈2930,≈48842,569 (Petit)
+Nombre de Features,≈80,≈15,30
+Type de Features,Numériques et Catégorielles (Ordinales et Nominales),Numériques et Catégorielles,Exclusivement Numériques (Réel)
+Valeurs Manquantes,"Oui, significatives et complexes","Oui, mais gérables (? pour certaines catégories)",Non (Très Propre)
+Pré-traitement Clé,"Imputation, Feature Engineering, Transformation Log.","Encodage Catégoriel, Gestion des ?",Normalisation/Standardisation des features numériques
+Performance Baseline,Erreur Quadratique Moyenne (RMSE),"Précision, F1-Score","Précision (Accuracy), Recall/Sensitivity"
